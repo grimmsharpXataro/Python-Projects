@@ -4,6 +4,10 @@ Interactive shell using the Shodan API to search for hosts, IOT, and other thing
 
 Before using the script, you need to put your API key in the "APIKey" variable
 
+You also need the shodan module, install it by executing :
+
+> python -m pip install shodan 
+
 Usage : 
 
     ip <host>
