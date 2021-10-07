@@ -1,3 +1,3 @@
 # Python-Projects
 
---> Branch dedicated for python projects / scripts
+--> Repository dedicated for python projects / scripts
