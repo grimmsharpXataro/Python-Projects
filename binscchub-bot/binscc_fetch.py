@@ -1,3 +1,5 @@
+# fetch bins CC hub informations
+
 from selenium import webdriver
 import time
 
