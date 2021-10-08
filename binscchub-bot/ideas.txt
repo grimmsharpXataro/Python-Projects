@@ -1,1 +1,5 @@
 > bot python ventant prendre les données texte de https://binscchub.com et les stocker dans un fichier (trivial)
+> bot python va faire des requetes vers des sites pour generer des cc avec les bins
+> bot python va checker les cc pour voir si elles sont fonctionnelles
+> save les cc fonctionnelles par nom de site
+> créer des comptes avec les cc save
