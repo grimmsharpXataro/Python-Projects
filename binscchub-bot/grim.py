@@ -15,8 +15,7 @@ for i in range(300, 399):
 
 		print("|*| Trying post-{}".format(str(i)))
 
-		element = browser.find_element_by_id('post-{}'.format(str(i)))
-		element.click()
+		element = browser.find_element_by_id('post-{}'.format(str(i))).click()
 
 		bins = browser.find_element_by_class_name('entry-content')
 		bin_content = bins.text 
@@ -25,10 +24,12 @@ for i in range(300, 399):
 
 		try:
 
-			fd = open(LOGFILE, "a").write(bin_content)
-			close(fd)
+			fd = open(LOGFILE, "a")
+			fd.write("\nnew post data (post-{}) : ".format(str(i)))
+			fd.write(bin_content)
+			fd.close()
 
-			print("|+| OK")
+			print("|+| \t-> OK")
 
 		except Exception as E:
 
