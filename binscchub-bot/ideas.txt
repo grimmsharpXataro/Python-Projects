@@ -3,3 +3,7 @@
 > bot python va checker les cc pour voir si elles sont fonctionnelles
 > save les cc fonctionnelles par nom de site
 > créer des comptes avec les cc save
+
+
+ATTENTION : télécharger le driver adéquat a votre navigateur https://selenium-python.readthedocs.io/installation.html et mettre le bin dans le PATH
+Il faut aussi installer le module selenium avant de lancer le script (pythom -m pip install selenium)
