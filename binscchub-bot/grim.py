@@ -26,7 +26,7 @@ for i in range(300, 399):
 		try:
 
 			fd = open(LOGFILE, "a").write(bin_content)
-			fclose(fd)
+			close(fd)
 
 			print("|+| OK")
 
