@@ -35,7 +35,7 @@ for i in range(300, 399):
 
 			print("|-| An exception occured : " + str(E))
 
-		element.back()
+		browser.back()
 
 	except Exception as E: print("|-| Not found ({})".format(str(E)))	
 
