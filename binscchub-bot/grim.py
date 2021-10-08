@@ -18,7 +18,7 @@ for i in range(300, 399):
 		element = browser.find_element_by_id('post-{}'.format(str(i)))
 		element.click()
 
-		bins = browser.find_element_by_class('entry-content')
+		bins = browser.find_element_by_class_name('entry-content')
 		bin_content = bins.text 
 
 		# trivial
@@ -34,9 +34,9 @@ for i in range(300, 399):
 
 			print("|-| An exception occured : " + str(E))
 
-	except: print("|-| Not found")	
+	except Exception as E: print("|-| Not found ({})".format(str(E)))	
 
-	time.sleep(1)
+	time.sleep(3)
 
 
 
