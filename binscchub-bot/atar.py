@@ -1,11 +1,11 @@
 from selenium import webdriver
 import time
 
-
-url = 'https://binscchub.com/'
+URL = 'https://binscchub.com/'
+LOGFILE = "log.txt"
 
 browser = webdriver.Chrome()
-browser.get(url)
+browser.get(URL)
 
 time.sleep(1)
 
@@ -13,12 +13,27 @@ for i in range(300, 399):
 
 	try:
 
-		element=browser.find_element_by_id('post-{}'.format(str(i)))
+		print("|*| Trying post-{}".format(str(i)))
+
+		element = browser.find_element_by_id('post-{}'.format(str(i)))
 		element.click()
 
-		bins = browser.find_element_by_class('entry-content')
+		bins = browser.find_element_by_class_name('entry-content')
 		bin_content = bins.text 
-        
-	except: pass
-with open('output.txt', 'w') as f:
-    f.write(bin_content.text)
+
+		# trivial
+
+		try:
+
+			fd = open(LOGFILE, "a").write(bin_content)
+			close(fd)
+
+			print("|+| OK")
+
+		except Exception as E:
+
+			print("|-| An exception occured : " + str(E))
+
+	except Exception as E: print("|-| Not found ({})".format(str(E)))	
+
+	time.sleep(3)
