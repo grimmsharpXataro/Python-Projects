@@ -1,5 +1,7 @@
 > bot python ventant prendre les données texte de https://binscchub.com et les stocker dans un fichier (trivial)
 > bot python va faire des requetes vers des sites pour generer des cc avec les bins
+  > on a le fichier en local
+    > changer les choix mois/année par une entrée au lieu d'un menu déroulant
 > bot python va checker les cc pour voir si elles sont fonctionnelles
 > save les cc fonctionnelles par nom de site
 > créer des comptes avec les cc save
