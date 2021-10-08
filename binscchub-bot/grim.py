@@ -1,7 +1,8 @@
 from selenium import webdriver
+import time
 
 
-URL = 'https://binscchub.com/'
+url = 'https://binscchub.com/'
 
 browser = webdriver.Chrome()
 browser.get(url)
@@ -19,5 +20,3 @@ for i in range(300, 399):
 		bin_content = bins.text 
 
 	except: pass
-
-
