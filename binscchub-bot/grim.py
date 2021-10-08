@@ -25,7 +25,7 @@ for i in range(300, 399):
 		try:
 
 			fd = open(LOGFILE, "a")
-			fd.write("\nnew post data (post-{}) : ".format(str(i)))
+			fd.write("\n\nnew post data (post-{}) : \n\n".format(str(i)))
 			fd.write(bin_content)
 			fd.close()
 
@@ -34,6 +34,8 @@ for i in range(300, 399):
 		except Exception as E:
 
 			print("|-| An exception occured : " + str(E))
+
+		element.back()
 
 	except Exception as E: print("|-| Not found ({})".format(str(E)))	
 
