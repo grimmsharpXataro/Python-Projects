@@ -13,8 +13,6 @@ browser.get(URL)
 time.sleep(1)
 
 
-#BIN_un = open(LOGFILE, "r")
-#for line in BIN_un:
 
 
 element = browser.find_element_by_id("ccpN")
