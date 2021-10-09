@@ -6,7 +6,7 @@ import requests
 import urllib
 
 
-URL='file:///home/ataro666/Bureau/aa/CC_Gen/CC_Gen.html'
+URL='file:///home/XXXX/Bureau/aa/CC_Gen/CC_Gen.html'
 
 browser = webdriver.Firefox()
 browser.get(URL)
