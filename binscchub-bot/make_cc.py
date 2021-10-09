@@ -19,7 +19,6 @@ element = browser.find_element_by_id("ccpN")
 element.send_keys(547874)
 submit = browser.find_element_by_xpath('''//*[@id="gerar"]''')
 time.sleep(1)
-submit.Displayed
 submit.click
 	
 
