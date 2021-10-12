@@ -1,4 +1,5 @@
-# Bin CC hub bot
+# Bin CC hub 
+#put your local url of the CC Generator website in the CC_GEN_URL variable
 
 from selenium import webdriver
 import time
