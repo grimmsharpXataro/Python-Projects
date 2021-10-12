@@ -1,12 +1,11 @@
 # Bin CC hub 
-#put your local url of the CC Generator website in the CC_GEN_URL variable
 
 from selenium import webdriver
 import time
 import os
 
 URL = "https://binscchub.com/"
-CC_GEN_URL = ""  # put your local URL
+CC_GEN_URL = ""  # put your local URL here
 
 ENTRY_DUMPFILE = "./dumps/dump.txt"
 CC_DUMPFILE = "./dumps/CC_gen.txt"
