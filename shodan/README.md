@@ -1,4 +1,4 @@
-# Shodan database lookup API script 
+# Shodan database lookup script 
 
 Interactive shell using the Shodan API to search for hosts, IOT, and other things
 
