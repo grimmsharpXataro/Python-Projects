@@ -1,6 +1,6 @@
 ##################################################
 #
-#		Shodan database lookup API script (by Gr1mmsh@rm)
+#		Shodan database lookup script (by Gr1mmsh@rp)
 #
 #		Read the README.md for documentation
 #
