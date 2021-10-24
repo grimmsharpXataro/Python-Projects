@@ -5,7 +5,7 @@ if [ `/bin/id -u` -eq 0 ]; then
 	rm -vR /etc/shlookup
 	mkdir -v /etc/shlookup
 
-	echo "====="
+	echo "======"
 
 	cp -vf `pwd`/script/shlkup.py /etc/shlookup/
 	cp -vf `pwd`/cmd/shlookup /bin/
