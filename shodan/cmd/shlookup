@@ -1,3 +1,4 @@
 #!/bin/bash
+# a simple launcher
 
 python3 /etc/shlookup/shlkup.py
