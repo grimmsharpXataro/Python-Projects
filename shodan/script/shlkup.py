@@ -11,11 +11,8 @@ import os
 
 
 # Put your API key here
-#APIKey = ""
+APIKey = ""
 
-
-# It's a free API key, don't get cocky
-APIKey = "FUWTXwzO412JOC8RVopmOiBvHdKnhWyS"
 
 
 __banner__=  """
